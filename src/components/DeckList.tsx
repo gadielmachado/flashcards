@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Deck } from '@/lib/types';
@@ -67,7 +66,7 @@ const DeckList: React.FC<DeckListProps> = ({ decks, onDeleteDeck }) => {
           return (
             <div key={deck.id} className="relative group">
               <Link 
-                to={`/deck/${deck.id}`}
+                to={`/study/${deck.id}`}
                 className="block p-4 rounded-xl bg-white border border-border shadow-sm hover:shadow-md transition-all duration-300 ease-apple-ease"
               >
                 <div className="flex justify-between items-start mb-2">

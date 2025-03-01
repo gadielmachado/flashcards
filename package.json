@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "vite",
     "dev:8083": "vite --port 8083",
-    "build": "vite build",
+    "build": "react-scripts build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
